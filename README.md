@@ -33,17 +33,24 @@ jupyter-book build .
 
 Notebook execution is disabled during the book build. This prevents instructional Bash exercises from creating files automatically; students can still run notebook cells interactively.
 
-## Connect the GitHub repository
+## GitHub repository and Colab
 
-After creating the repository:
+The book is connected to:
 
-1. Replace `USERNAME/REPOSITORY` in `_config.yml` with the real GitHub path.
-2. Push the files to the `main` branch.
-3. In the GitHub repository, open **Settings → Pages** and choose **GitHub Actions** as the source.
+```text
+https://github.com/jfkoehler/bootcamp_fa_26
+```
+
+The Jupyter Book configuration adds a Google Colab launch button to notebook pages. Dataset examples use raw GitHub URLs so they work when a notebook is opened in Colab.
+
+To publish the book:
+
+1. Push the files to the `main` branch.
+2. In the GitHub repository, open **Settings → Pages** and choose **GitHub Actions** as the source.
 4. The included workflow will build and publish the book after each push to `main`.
 
 The deployed address will normally be:
 
 ```text
-https://USERNAME.github.io/REPOSITORY/
+https://jfkoehler.github.io/bootcamp_fa_26/
 ```
