@@ -31,3 +31,5 @@ sphinx:
   config:
     html_show_copyright: true
     html_last_updated_fmt: "%B %d, %Y"
+    html_extra_path:
+      - data

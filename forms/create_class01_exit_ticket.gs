@@ -36,60 +36,34 @@ function createClass01ExitTicket() {
     .addMultipleChoiceItem()
     .setTitle('Which scenario did your team analyze?')
     .setChoiceValues([
-      'A — Restaurant delivery',
-      'B — Consumer lending',
-      'C — Retail promotion'
+      'A — Federal Reserve business conditions',
+      'B — UCI Bank Marketing',
+      'C — Coffee-shop operations'
     ])
     .setRequired(true);
 
   form
     .addParagraphTextItem()
-    .setTitle('Decision statement')
+    .setTitle('Business Understanding')
     .setHelpText(
-      'Who is the stakeholder, what specific decision must they make, and by when?'
+      'Who is the stakeholder, what specific decision must they make, and what outcome defines success?'
     )
     .setRequired(true);
 
   form
     .addParagraphTextItem()
-    .setTitle('Most decision-relevant data')
+    .setTitle('Data Understanding')
     .setHelpText(
-      'Identify the most useful available data and explain what one row or observation represents.'
+      'What does one row represent, which fields are most useful, and what is the most important limitation?'
     )
     .setRequired(true);
 
   form
     .addParagraphTextItem()
-    .setTitle('Most important data limitation')
+    .setTitle('Analytical Direction')
     .setHelpText(
-      'What is missing, unreliable, selected, or unavailable at the time of the decision?'
+      'Is the task descriptive, predictive, causal, or optimization? What would you analyze first, and what output would you provide?'
     )
-    .setRequired(true);
-
-  form
-    .addMultipleChoiceItem()
-    .setTitle('What is the primary analytical task?')
-    .setChoiceValues([
-      'Describe or compare what happened',
-      'Predict an unknown or future outcome',
-      'Estimate the effect of an action',
-      'Optimize a decision under constraints',
-      'Not yet clear'
-    ])
-    .setRequired(true);
-
-  form
-    .addParagraphTextItem()
-    .setTitle('Proposed first analysis and deliverable')
-    .setHelpText(
-      'What would you analyze first, what would the stakeholder receive, and how would it support the decision?'
-    )
-    .setRequired(true);
-
-  form
-    .addParagraphTextItem()
-    .setTitle('Question for the stakeholder')
-    .setHelpText('What must you clarify before beginning the analysis?')
     .setRequired(true);
 
   form
