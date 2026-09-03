@@ -16,7 +16,7 @@ parse:
 
 repository:
   # Replace USERNAME and REPOSITORY after creating the GitHub repository.
-  url: https://github.com/USERNAME/REPOSITORY
+  url: https://github.com/jfkoehler/bootcamp_fa_26
   path_to_book: ""
   branch: main
 
