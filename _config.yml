@@ -1,0 +1,33 @@
+title: Data Bootcamp
+author: Jacob Koehler
+copyright: "2026"
+
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+    - linkify
+    - substitution
+
+repository:
+  # Replace USERNAME and REPOSITORY after creating the GitHub repository.
+  url: https://github.com/USERNAME/REPOSITORY
+  path_to_book: ""
+  branch: main
+
+html:
+  favicon: ""
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: true
+
+sphinx:
+  config:
+    html_show_copyright: true
+    html_last_updated_fmt: "%B %d, %Y"

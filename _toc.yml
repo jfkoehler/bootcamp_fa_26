@@ -1,0 +1,11 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Course Information
+    chapters:
+      - file: syllabus
+  - caption: Classes
+    numbered: true
+    chapters:
+      - file: class01
+      - file: class02

@@ -1,0 +1,5 @@
+_build/
+.jupyter_cache/
+.ipynb_checkpoints/
+class02_sandbox/
+.DS_Store
