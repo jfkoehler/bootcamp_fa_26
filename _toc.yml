@@ -1,9 +1,9 @@
 format: jb-book
-root: intro
+root: syllabus
 parts:
-  - caption: Course Information
-    chapters:
-      - file: syllabus
+  # - caption: Course Information
+  #   chapters:
+  #     - file: syllabus
   - caption: Classes
     numbered: true
     chapters:
