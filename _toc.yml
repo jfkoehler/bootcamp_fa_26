@@ -9,3 +9,4 @@ parts:
     chapters:
       - file: class01
       - file: class02
+      - file: class03
