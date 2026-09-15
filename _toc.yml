@@ -10,3 +10,4 @@ parts:
       - file: class01
       - file: class02
       - file: class03
+      - file: class04_pandas_basics
