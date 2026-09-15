@@ -16,7 +16,6 @@ parse:
 
 repository:
   url: https://github.com/jfkoehler/bootcamp_fa_26
-  path_to_book: "https://github.com/jfkoehler/bootcamp_fa_26/"
   branch: main
 
 launch_buttons:
