@@ -11,3 +11,4 @@ parts:
       - file: class02
       - file: class03
       - file: class04_pandas_basics
+      - file: class05_advanced_pandas
