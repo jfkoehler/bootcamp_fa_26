@@ -12,3 +12,4 @@ parts:
       - file: class03
       - file: class04_pandas_basics
       - file: pandas_II
+      - file: class06_seaborn_eda
