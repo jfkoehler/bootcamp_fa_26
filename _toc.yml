@@ -13,3 +13,4 @@ parts:
       - file: class04_pandas_basics
       - file: pandas_II
       - file: class06_seaborn_eda
+      - file: eda_visualization_group_project
