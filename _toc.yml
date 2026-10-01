@@ -15,3 +15,4 @@ parts:
       - file: class06_seaborn_eda
       - file: eda_visualization_group_project
       - file: data_apis
+      - file: world_bank_api_activity
