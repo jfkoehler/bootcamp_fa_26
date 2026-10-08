@@ -17,3 +17,4 @@ parts:
       - file: data_apis
       - file: world_bank_api_activity
       - file: html_data
+      - file: mini-project-I
