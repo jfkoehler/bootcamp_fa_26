@@ -19,3 +19,4 @@ parts:
       - file: html_data
       - file: mini-project-I
       - file: intro_optimization
+      - file: regression_activity
