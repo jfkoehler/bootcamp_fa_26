@@ -20,3 +20,9 @@ parts:
       - file: mini-project-I
       - file: intro_optimization
       - file: regression_activity
+
+  - caption: Extras
+    numbered: true
+    chapters:
+      - file: extra_notebooks/sklearn_intro/using_sklearn_I
+      - file: extra_notebooks/sklearn_intro/using_sklearn_II
