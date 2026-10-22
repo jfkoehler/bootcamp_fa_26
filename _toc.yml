@@ -20,6 +20,7 @@ parts:
       - file: mini-project-I
       - file: intro_optimization
       - file: regression_activity
+      - file: polynomial_models
 
   - caption: Extras
     numbered: true
