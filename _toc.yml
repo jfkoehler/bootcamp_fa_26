@@ -27,3 +27,5 @@ parts:
     chapters:
       - file: extra_notebooks/sklearn_intro/using_sklearn_I
       - file: extra_notebooks/sklearn_intro/using_sklearn_II
+      - file: extra_notebooks/regression_practice_I
+      - file: extra_notebooks/regression_practice_II
