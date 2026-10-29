@@ -21,6 +21,8 @@ parts:
       - file: intro_optimization
       - file: regression_activity
       - file: polynomial_models
+      - file: sample_housing_prediction
+      - file: knn_classification
 
   - caption: Extras
     numbered: true
