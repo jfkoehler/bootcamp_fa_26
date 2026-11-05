@@ -23,6 +23,7 @@ parts:
       - file: polynomial_models
       - file: sample_housing_prediction
       - file: knn_classification
+      - file: logistic_starter_code
 
   - caption: Extras
     numbered: true
