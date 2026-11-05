@@ -24,7 +24,7 @@ parts:
       - file: sample_housing_prediction
       - file: knn_classification
       - file: logistic_starter_code
-      - file: logistic_regression_updated
+      - file: logistic_regression_lesson_updated
 
   - caption: Extras
     numbered: true
