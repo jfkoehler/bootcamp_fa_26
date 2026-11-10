@@ -25,6 +25,7 @@ parts:
       - file: knn_classification
       - file: logistic_starter_code
       - file: logistic_regression_lesson_updated
+      - file: intro_decision_tree_updated
 
   - caption: Extras
     numbered: true
