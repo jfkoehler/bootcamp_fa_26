@@ -26,7 +26,7 @@ parts:
       - file: logistic_starter_code
       - file: logistic_regression_lesson_updated
       - file: intro_decision_tree_updated
-      - file: ensemble_learning_lift_gain
+      - file: ensemble_learning_lift_gain_b
 
   - caption: Extras
     numbered: true
