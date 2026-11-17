@@ -27,6 +27,7 @@ parts:
       - file: logistic_regression_lesson_updated
       - file: intro_decision_tree_updated
       - file: ensemble_learning_lift_gain_b
+      - file: unsupervised_learning
 
   - caption: Extras
     numbered: true
