@@ -1,5 +1,33 @@
-streamlit
-pandas
-numpy
+# Jupyter Book v1 build stack.
+# Keep this on v1 while the course uses _config.yml and _toc.yml.
+jupyter-book==1.0.4.post1
+ghp-import==2.1.0
+
+# Notebook execution
+ipykernel==6.29.5
+ipywidgets==8.1.5
+nbformat==5.10.4
+
+# Core data-science stack
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+matplotlib==3.8.4
+seaborn==0.13.2
 scikit-learn==1.5.2
-jupyter-book
+statsmodels==0.14.4
+sympy==1.13.3
+
+# Classification, ensembles, lift, and gain lessons
+scikit-plot==0.3.7
+xgboost==2.1.4
+lightgbm==4.5.0
+
+# Interactive visualization
+plotly==5.24.1
+bokeh==3.6.3
+
+# Data access and spreadsheet support
+requests==2.32.3
+openpyxl==3.1.5
+ucimlrepo==0.0.7
