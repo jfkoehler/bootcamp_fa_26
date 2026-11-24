@@ -21,8 +21,7 @@ st.write(
 
 @st.cache_resource
 def load_model_bundle():
-    model_path = Path(__file__).parent / "predictive_maintenance_model.pkl"
-    with model_path.open("rb") as file:
+    with open("predictive_maintenance_model.pkl", "rb") as file:
         return pickle.load(file)
 
 
@@ -121,8 +120,3 @@ if submitted:
             "on validation data to maximize incremental profit under the "
             "hypothetical maintenance assumptions shown in the sidebar."
         )
-
-st.caption(
-    "Educational demonstration only. The model was trained on synthetic data "
-    "and should not be used for real maintenance or safety decisions."
-)
