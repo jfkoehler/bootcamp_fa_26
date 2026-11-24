@@ -28,6 +28,7 @@ parts:
       - file: intro_decision_tree_updated
       - file: ensemble_learning_lift_gain_b
       - file: unsupervised_learning
+      - file: streamlit
 
   - caption: Extras
     numbered: true

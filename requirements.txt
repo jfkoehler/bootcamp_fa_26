@@ -1,1 +1,4 @@
-jupyter-book==1.0.4.post1
+streamlit
+pandas
+numpy
+scikit-learn==1.5.2
